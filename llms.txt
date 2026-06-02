@@ -1,0 +1,58 @@
+# Anthony Baptiste Analytics Portfolio
+
+This is the recruiter-facing portfolio website for Anthony Baptiste. It is separate from any consulting website and is intended for recruiters, hiring managers, analytics teams, BI teams, operations analytics teams, supply chain analytics teams, data teams, and applied AI research teams.
+
+## Positioning
+
+Anthony Baptiste builds decision-ready analytics across BI, operations, data engineering, and applied AI.
+
+Canonical portfolio URL: https://antbap23.github.io/career-site/
+GitHub profile: https://github.com/AntBap23
+LinkedIn profile: https://www.linkedin.com/in/anthony-baptiste00/
+
+## Target Roles
+
+- Business Intelligence Analyst
+- Data Analyst
+- Analytics Engineer
+- BI Developer
+- Operations Analyst
+- Supply Chain Analyst
+- Data Scientist / ML Analyst
+- Applied AI / Research Assistant
+
+## Background
+
+Anthony Baptiste is an Operations & Information Management major with a Computer Science minor at Northern Illinois University. His work combines BI dashboards, SQL/Python analytics, analytics engineering, operations reporting, applied AI research, forecasting, experimentation, and business decision support.
+
+## Proof Points
+
+- 30,000+ ZIP codes analyzed at Shipt
+- 10+ hours of manual reporting saved weekly
+- 20+ KPIs standardized at Innovation DuPage
+- 40% reporting cycle reduction
+- 28 AI personas evaluated in applied AI research
+
+## Quick Answers
+
+Anthony Baptiste is best matched to BI Analyst, Data Analyst, Analytics Engineer, BI Developer, Operations Analyst, Supply Chain Analyst, Data Scientist / ML Analyst, and Applied AI Research Assistant roles.
+
+Recruiters should review the Projects page for portfolio proof, Experience for internship and research outcomes, Research for applied AI/NLP work, Resume for targeted PDF downloads, and Contact for email, LinkedIn, GitHub, and Calendly links.
+
+This portfolio is hosted as a static GitHub Pages site with canonical URLs on antbap23.github.io/career-site.
+
+## Core Skills
+
+BI and visualization: Tableau, Power BI, Excel, Matplotlib.
+Data and analytics: SQL, Python, pandas, numpy, statistics, A/B testing.
+Analytics engineering: dbt, PostgreSQL, Snowflake, BigQuery, star schema, ETL/ELT.
+ML and forecasting: scikit-learn, LightGBM, feature engineering, time-series forecasting.
+AI and research: LLM workflows, prompt engineering, GPT simulations, NLP, sentiment scoring.
+Business tools: Salesforce, SAP, Jira, Git/GitHub.
+
+## Contact
+
+- Email: AnthonyBaptiste00@gmail.com
+- LinkedIn: https://www.linkedin.com/in/anthony-baptiste00/
+- GitHub: https://github.com/AntBap23
+- Calendly: https://calendly.com/anthonybaptiste00

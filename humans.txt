@@ -1,0 +1,12 @@
+/* TEAM */
+Portfolio owner: Anthony Baptiste
+Contact: AnthonyBaptiste00@gmail.com
+LinkedIn: https://www.linkedin.com/in/anthony-baptiste00/
+GitHub: https://github.com/AntBap23
+
+/* SITE */
+Site: Anthony Baptiste Analytics Portfolio
+Canonical URL: https://antbap23.github.io/career-site/
+Hosted on: GitHub Pages
+Language: English
+Focus: BI, analytics engineering, data science, operations analytics, and applied AI

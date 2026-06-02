@@ -1,0 +1,18 @@
+{
+  "name": "Anthony Baptiste Analytics Portfolio",
+  "short_name": "Anthony Baptiste",
+  "description": "Recruiter-facing analytics, BI, data science, operations analytics, and applied AI portfolio.",
+  "start_url": "/career-site/",
+  "scope": "/career-site/",
+  "display": "standalone",
+  "background_color": "#fbfcfe",
+  "theme_color": "#047c89",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
