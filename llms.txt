@@ -23,7 +23,7 @@ LinkedIn profile: https://www.linkedin.com/in/anthony-baptiste00/
 
 ## Background
 
-Anthony Baptiste is an Operations & Information Management major with a Computer Science minor at Northern Illinois University. His work combines BI dashboards, SQL/Python analytics, analytics engineering, operations reporting, applied AI research, forecasting, experimentation, and business decision support.
+Anthony Baptiste is a Northern Illinois University graduate in Operations & Information Management with a Computer Science minor. His work combines BI dashboards, SQL/Python analytics, analytics engineering, operations reporting, applied AI research, forecasting, experimentation, and business decision support.
 
 ## Proof Points
 
@@ -32,6 +32,9 @@ Anthony Baptiste is an Operations & Information Management major with a Computer
 - 20+ KPIs standardized at Innovation DuPage
 - 40% reporting cycle reduction
 - 28 AI personas evaluated in applied AI research
+- Network planning deck available at /assets/network_planning.pdf
+- Dean's Research Seminar deck available at /assets/research.pdf
+- CURE research poster available at /assets/cure-poster.pdf
 
 ## Quick Answers
 
@@ -40,6 +43,8 @@ Anthony Baptiste is best matched to BI Analyst, Data Analyst, Analytics Engineer
 Recruiters should review the Projects page for portfolio proof, Experience for internship and research outcomes, Research for applied AI/NLP work, Resume for targeted PDF downloads, and Contact for email, LinkedIn, GitHub, and Calendly links.
 
 This portfolio is hosted as a static GitHub Pages site with canonical URLs on antbap23.github.io/career-site.
+
+Additional proof includes Shipt network planning analytics, HAVI data visualization and demand forecasting competitions, OMIS IGNITE leadership, ACM NIU community work, AI Agents training, Dean's Research Seminar materials, and CURE research presentation materials.
 
 ## Core Skills
 

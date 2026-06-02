@@ -5,6 +5,7 @@ const header = document.querySelector("[data-header]");
 const sectionLinks = [...document.querySelectorAll(".nav-links a[href^='#']")];
 const currentPage = document.body.dataset.page;
 const pageLinks = [...document.querySelectorAll(".nav-links a[href$='.html']")];
+const placeholderProjectLinks = [...document.querySelectorAll(".project-link.is-placeholder")];
 
 if (currentPage) {
   pageLinks.forEach((link) => {
@@ -26,6 +27,12 @@ if (navToggle && navLinks) {
     }
   });
 }
+
+placeholderProjectLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+  });
+});
 
 if (sectionLinks.length) {
   const observer = new IntersectionObserver(
