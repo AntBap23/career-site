@@ -602,6 +602,40 @@ li {
   padding: 1.25rem;
 }
 
+.role-meta {
+  display: grid;
+  align-content: start;
+  gap: 1rem;
+  min-width: 0;
+}
+
+.role-logo-frame {
+  display: flex;
+  width: 148px;
+  min-height: 72px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(217, 226, 234, 0.88);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.86)),
+    #fff;
+  padding: 0.8rem;
+  box-shadow: 0 12px 28px rgba(16, 24, 40, 0.06);
+}
+
+.role-logo {
+  max-width: 112px;
+  max-height: 46px;
+  object-fit: contain;
+}
+
+.role-logo.is-symbol {
+  max-width: 56px;
+  max-height: 56px;
+  border-radius: 50%;
+}
+
 .role-meta span,
 .project-type,
 .recognition-card span,
@@ -625,6 +659,13 @@ li {
 .role-body p {
   color: #334155;
   margin-bottom: 0.8rem;
+}
+
+.role-body,
+.role-body p,
+.role-body li {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .role-body li {
@@ -990,7 +1031,7 @@ li {
   .page-hero,
   .section,
   .site-footer {
-    width: min(var(--max), calc(100% - 32px));
+    width: min(var(--max), calc(100vw - 32px));
   }
 
   .hero-content,
@@ -1028,18 +1069,24 @@ li {
 
   .hero-profile {
     display: grid;
-    grid-template-columns: 72px minmax(0, 1fr);
-    max-width: 100%;
-    gap: 0.75rem;
+    grid-template-columns: 64px minmax(0, 1fr);
+    width: calc(100vw - 32px);
+    max-width: calc(100vw - 32px);
+    gap: 0.65rem;
   }
 
   .hero-profile img {
-    width: 72px;
-    height: 72px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .hero-profile > div {
+    min-width: 0;
   }
 
   .hero-profile span {
     font-size: 0.86rem;
+    overflow-wrap: anywhere;
   }
 
   .hero-actions {
@@ -1086,7 +1133,19 @@ li {
   }
 
   .page-hero h1 {
-    font-size: clamp(2rem, 9vw, 2.7rem);
+    max-width: 21rem;
+    font-size: clamp(1.85rem, 7.6vw, 2.25rem);
+    line-height: 1.08;
+    overflow-wrap: anywhere;
+  }
+
+  .page-hero p:not(.eyebrow) {
+    max-width: 21rem;
+    overflow-wrap: anywhere;
+  }
+
+  .role-body {
+    max-width: 19.5rem;
   }
 
   .research-section {
