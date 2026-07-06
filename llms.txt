@@ -1,12 +1,12 @@
-# Anthony Baptiste Analytics Portfolio
+# Anthony Baptiste AI Product Analytics Portfolio
 
-This is the recruiter-facing portfolio website for Anthony Baptiste. It is separate from any consulting website and is intended for recruiters, hiring managers, analytics teams, BI teams, operations analytics teams, supply chain analytics teams, data teams, and applied AI research teams.
+This is the recruiter-facing portfolio website for Anthony Baptiste. It is separate from any consulting website and is intended for recruiters, hiring managers, product analytics teams, experimentation teams, AI product teams, BI teams, operations analytics teams, supply chain analytics teams, data teams, and applied AI research teams.
 
 Anthony Baptiste is currently employed and selectively open to full-time roles only.
 
 ## Positioning
 
-Anthony Baptiste builds decision-ready analytics across product experimentation, BI, operations, data engineering, and applied AI.
+Anthony Baptiste builds AI-aware product analytics across experimentation, BI, operations, data engineering, and applied AI.
 
 Canonical portfolio URL: https://antbap23.github.io/career-site/
 GitHub profile: https://github.com/AntBap23
@@ -18,6 +18,7 @@ LinkedIn profile: https://www.linkedin.com/in/anthony-baptiste00/
 - Data Analyst
 - Product Analyst
 - Digital Experimentation Analyst
+- AI Product Analyst
 - Analytics Engineer
 - BI Developer
 - Operations Analyst
@@ -27,7 +28,7 @@ LinkedIn profile: https://www.linkedin.com/in/anthony-baptiste00/
 
 ## Background
 
-Anthony Baptiste is a Northern Illinois University graduate in Operations & Information Management with a Computer Science minor. His work combines product experimentation, BI dashboards, SQL/Python analytics, analytics engineering, operations reporting, applied AI research, forecasting, and business decision support.
+Anthony Baptiste is a Northern Illinois University graduate in Operations & Information Management with a Computer Science minor. His work combines AI product analytics, product experimentation, BI dashboards, SQL/Python analytics, analytics engineering, operations reporting, applied AI research, forecasting, and business decision support.
 
 ## Proof Points
 
@@ -43,7 +44,7 @@ Anthony Baptiste is a Northern Illinois University graduate in Operations & Info
 
 ## Quick Answers
 
-Anthony Baptiste is best matched to full-time Product Analyst, Digital Experimentation Analyst, BI Analyst, Data Analyst, Analytics Engineer, BI Developer, Operations Analyst, Supply Chain Analyst, Data Scientist / ML Analyst, and Applied AI roles.
+Anthony Baptiste is best matched to full-time Product Analyst, Digital Experimentation Analyst, AI Product Analyst, BI Analyst, Data Analyst, Analytics Engineer, BI Developer, Operations Analyst, Supply Chain Analyst, Data Scientist / ML Analyst, and Applied AI roles.
 
 Recruiters should review the Projects page for portfolio proof, Experience for current role, prior analytics experience, consulting, and research outcomes, Research for applied AI/NLP work, Resume for targeted PDF downloads, and Contact for email, LinkedIn, GitHub, and Calendly links.
 
@@ -53,7 +54,7 @@ Additional proof includes Shipt network planning analytics, HAVI data visualizat
 
 ## Core Skills
 
-Product and experimentation: A/B testing, multivariate testing, funnel analysis, conversion analysis, Adobe Target, AB Tasty.
+Product and experimentation: A/B testing, multivariate testing, funnel analysis, conversion analysis, personalization analytics, Adobe Target, AB Tasty.
 BI and visualization: Tableau, Power BI, Excel, Matplotlib.
 Data and analytics: SQL, Python, pandas, numpy, statistics, logistic regression.
 Analytics engineering: dbt, PostgreSQL, Snowflake, BigQuery, star schema, ETL/ELT.

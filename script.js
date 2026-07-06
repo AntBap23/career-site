@@ -6,6 +6,11 @@ const sectionLinks = [...document.querySelectorAll(".nav-links a[href^='#']")];
 const currentPage = document.body.dataset.page;
 const pageLinks = [...document.querySelectorAll(".nav-links a[href$='.html']")];
 const placeholderProjectLinks = [...document.querySelectorAll(".project-link.is-placeholder")];
+const revealItems = [
+  ...document.querySelectorAll(
+    ".route-card, .faq-card, .project-card, .role-card, .skill-card, .recognition-card, .operating-card, .capability-board article, .decision-loop article, .project-lens, .contact-intent"
+  )
+];
 
 if (currentPage) {
   pageLinks.forEach((link) => {
@@ -54,6 +59,26 @@ if (sectionLinks.length) {
   );
 
   document.querySelectorAll("main section[id]").forEach((section) => observer.observe(section));
+}
+
+if (revealItems.length && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  revealItems.forEach((item) => item.classList.add("reveal-ready"));
+
+  const revealObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        revealObserver.unobserve(entry.target);
+      });
+    },
+    {
+      rootMargin: "0px 0px -8% 0px",
+      threshold: 0.08
+    }
+  );
+
+  revealItems.forEach((item) => revealObserver.observe(item));
 }
 
 window.addEventListener("scroll", () => {

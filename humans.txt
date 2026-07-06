@@ -5,7 +5,7 @@ LinkedIn: https://www.linkedin.com/in/anthony-baptiste00/
 GitHub: https://github.com/AntBap23
 
 /* SITE */
-Site: Anthony Baptiste Analytics Portfolio
+Site: Anthony Baptiste AI Product Analytics Portfolio
 Canonical URL: https://antbap23.github.io/career-site/
 Hosted on: GitHub Pages
 Language: English
