@@ -1,12 +1,12 @@
-# Anthony Baptiste AI Product Analytics Portfolio
+# Anthony Baptiste Product Growth and GTM Portfolio
 
-This is the recruiter-facing portfolio website for Anthony Baptiste. It is separate from any consulting website and is intended for recruiters, hiring managers, product analytics teams, experimentation teams, AI product teams, BI teams, operations analytics teams, supply chain analytics teams, data teams, and applied AI research teams.
+This is the recruiter-facing portfolio website for Anthony Baptiste. It is separate from any consulting website and is intended for recruiters, hiring managers, product teams, growth teams, GTM teams, product operations teams, product analytics teams, experimentation teams, operations teams, and applied AI teams.
 
 Anthony Baptiste is currently employed and selectively open to full-time roles only.
 
 ## Positioning
 
-Anthony Baptiste builds AI-aware product analytics across experimentation, BI, operations, data engineering, and applied AI.
+Anthony Baptiste is a Chicago / Northern Illinois product, growth, and GTM candidate who uses experimentation analysis, customer and market research, KPI design, operations reporting, forecasting, stakeholder communication, and applied AI workflows to turn business questions into product decisions.
 
 Canonical portfolio URL: https://antbap23.github.io/career-site/
 GitHub profile: https://github.com/AntBap23
@@ -14,21 +14,22 @@ LinkedIn profile: https://www.linkedin.com/in/anthony-baptiste00/
 
 ## Target Roles
 
-- Business Intelligence Analyst
-- Data Analyst
+- Associate Product Manager
+- Product Manager
+- Growth Product Manager
+- Product Operations
+- GTM Strategy
 - Product Analyst
 - Digital Experimentation Analyst
-- AI Product Analyst
-- Analytics Engineer
-- BI Developer
+- Product Marketing / GTM Analyst
 - Operations Analyst
 - Supply Chain Analyst
-- Data Scientist / ML Analyst
+- AI Product Analyst
 - Applied AI / Research Assistant
 
 ## Background
 
-Anthony Baptiste is a Northern Illinois University graduate in Operations & Information Management with a Computer Science minor. His work combines AI product analytics, product experimentation, BI dashboards, SQL/Python analytics, analytics engineering, operations reporting, applied AI research, forecasting, and business decision support.
+Anthony Baptiste is a Northern Illinois University graduate in Operations & Information Management with a Computer Science minor. His work combines product experimentation, customer and market analysis, KPI strategy, operations visibility, SQL/Python analytics, applied AI research, forecasting, and business decision support.
 
 ## Proof Points
 
@@ -44,23 +45,22 @@ Anthony Baptiste is a Northern Illinois University graduate in Operations & Info
 
 ## Quick Answers
 
-Anthony Baptiste is best matched to full-time Product Analyst, Digital Experimentation Analyst, AI Product Analyst, BI Analyst, Data Analyst, Analytics Engineer, BI Developer, Operations Analyst, Supply Chain Analyst, Data Scientist / ML Analyst, and Applied AI roles.
+Anthony Baptiste is based in Chicago / Northern Illinois and is best matched to full-time Associate Product Manager, Product Manager, Growth Product Manager, Product Operations, GTM Strategy, Product Analyst, Digital Experimentation Analyst, Product Marketing / GTM Analyst, Operations Analyst, Supply Chain Analyst, AI Product Analyst, and Applied AI roles.
 
-Recruiters should review the Projects page for portfolio proof, Experience for current role, prior analytics experience, consulting, and research outcomes, Research for applied AI/NLP work, Resume for targeted PDF downloads, and Contact for email, LinkedIn, GitHub, and Calendly links.
+Recruiters should review the Projects page for product and growth proof, Experience for experimentation, operations, consulting, and research outcomes, Research for applied AI/NLP work, Resume for targeted PDF downloads, and Contact for email, LinkedIn, GitHub, and Calendly links.
 
 This portfolio is hosted as a static GitHub Pages site with canonical URLs on antbap23.github.io/career-site.
 
-Additional proof includes Shipt network planning analytics, HAVI data visualization and demand forecasting competitions, OMIS IGNITE leadership, ACM NIU community work, AI Agents training, Dean's Research Seminar materials, and CURE research presentation materials.
+Additional proof includes Shipt network planning analytics, Ulta Beauty digital experimentation, Innovation DuPage KPI standardization, Mystery Street market consulting, HAVI data visualization and demand forecasting competitions, OMIS IGNITE leadership, ACM NIU community work, AI Agents training, Dean's Research Seminar materials, and CURE research presentation materials.
 
 ## Core Skills
 
-Product and experimentation: A/B testing, multivariate testing, funnel analysis, conversion analysis, personalization analytics, Adobe Target, AB Tasty.
-BI and visualization: Tableau, Power BI, Excel, Matplotlib.
-Data and analytics: SQL, Python, pandas, numpy, statistics, logistic regression.
-Analytics engineering: dbt, PostgreSQL, Snowflake, BigQuery, star schema, ETL/ELT.
-ML and forecasting: scikit-learn, LightGBM, feature engineering, time-series forecasting.
-AI and research: LLM workflows, prompt engineering, GPT simulations, NLP, sentiment scoring.
-Business tools: Salesforce, SAP, Jira, Git/GitHub.
+Product and growth: product discovery inputs, customer problems, growth loops, funnel analysis, conversion analysis, feature impact, prioritization support.
+Experimentation and metrics: A/B testing, multivariate testing, Adobe Target, AB Tasty, KPI design, guardrail metrics, post-test storytelling.
+GTM and customer insight: market research, competitor analysis, customer segments, positioning inputs, success criteria, stakeholder interviews.
+Product operations: operations analytics, process visibility, dashboard requirements, stakeholder alignment, Salesforce reporting, decision workflows.
+Data fluency: SQL, Python, Tableau, Power BI, Excel, pandas, PostgreSQL, dbt exposure.
+Applied AI and research: LLM workflows, prompt structure, GPT simulations, Claude workflows, NLP, sentiment scoring, Streamlit.
 
 ## Contact
 

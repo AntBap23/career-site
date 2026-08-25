@@ -1,12 +1,12 @@
 {
-  "name": "Anthony Baptiste AI Product Analytics Portfolio",
+  "name": "Anthony Baptiste Product Growth and GTM Portfolio",
   "short_name": "Anthony Baptiste",
-  "description": "Recruiter-facing analytics, BI, data science, operations analytics, and applied AI portfolio.",
+  "description": "Recruiter-facing product, growth, GTM, product operations, experimentation, operations analytics, customer insight, and applied AI portfolio.",
   "start_url": "/career-site/",
   "scope": "/career-site/",
   "display": "standalone",
-  "background_color": "#fbfcfe",
-  "theme_color": "#047c89",
+  "background_color": "#050505",
+  "theme_color": "#050505",
   "icons": [
     {
       "src": "assets/favicon.svg",
