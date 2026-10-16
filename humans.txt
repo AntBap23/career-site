@@ -5,8 +5,8 @@ LinkedIn: https://www.linkedin.com/in/anthony-baptiste00/
 GitHub: https://github.com/AntBap23
 
 /* SITE */
-Site: Anthony Baptiste Product Growth and GTM Portfolio
+Site: Anthony Baptiste Strategy, Growth and Analytics
 Canonical URL: https://antbap23.github.io/career-site/
 Hosted on: GitHub Pages
 Language: English
-Focus: Product management, growth, GTM, product operations, experimentation, customer insight, operations analytics, and applied AI
+Focus: Growth strategy, consulting, market research, experimentation, customer insight, operations analytics, and applied AI

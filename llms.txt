@@ -1,70 +1,27 @@
-# Anthony Baptiste Product Growth and GTM Portfolio
+# Anthony Baptiste — Strategy, Growth and Analytics
 
-This is the recruiter-facing portfolio website for Anthony Baptiste. It is separate from any consulting website and is intended for recruiters, hiring managers, product teams, growth teams, GTM teams, product operations teams, product analytics teams, experimentation teams, operations teams, and applied AI teams.
+Personal portfolio: https://antbap23.github.io/career-site/
 
-Anthony Baptiste is currently employed and selectively open to full-time roles only.
+Anthony Baptiste is based in Chicago / Northern Illinois and works as a Digital Experimentation Analyst at Ulta Beauty. He graduated from Northern Illinois University in Operations & Information Management with a Computer Science minor.
 
-## Positioning
+His experience spans growth consulting, customer and competitive research, digital experimentation, operations analytics, and applied AI research. He is interested in growth strategy, consulting, and business analytics opportunities.
 
-Anthony Baptiste is a Chicago / Northern Illinois product, growth, and GTM candidate who uses experimentation analysis, customer and market research, KPI design, operations reporting, forecasting, stakeholder communication, and applied AI workflows to turn business questions into product decisions.
+## Selected experience
+- Ulta Beauty: analyzed customer journeys across 20+ digital experiments to inform launch, iteration, and discontinuation decisions.
+- Shipt: analyzed coverage across 30,000+ ZIP codes and automated reporting, saving 10+ hours per week.
+- Mystery Street Recording Company, through NIU Experiential Learning Center: benchmarked 15+ competitors and presented prioritized growth recommendations to company leadership.
+- Innovation DuPage: standardized 20+ KPIs and reduced reporting cycle time by 40%.
+- NIU: compared 28 human interviews with 28 AI-simulated interviews, examining alignment, bias, consistency, nuance, and contextual depth.
+- ACM Community Ambassador: student outreach, event promotion, recruiting, and community engagement.
 
-Canonical portfolio URL: https://antbap23.github.io/career-site/
-GitHub profile: https://github.com/AntBap23
-LinkedIn profile: https://www.linkedin.com/in/anthony-baptiste00/
+## Pages
+- about.html: background and working style
+- experience.html: professional and research experience
+- projects.html: analytical and applied AI projects
+- research.html: research methods and findings
+- leadership.html: teamwork, community, and competitions
+- skills.html: research, analytics, strategy, and communication capabilities
+- resume.html: current resume
+- contact.html: email, LinkedIn, GitHub, and Calendly
 
-## Target Roles
-
-- Associate Product Manager
-- Product Manager
-- Growth Product Manager
-- Product Operations
-- GTM Strategy
-- Product Analyst
-- Digital Experimentation Analyst
-- Product Marketing / GTM Analyst
-- Operations Analyst
-- Supply Chain Analyst
-- AI Product Analyst
-- Applied AI / Research Assistant
-
-## Background
-
-Anthony Baptiste is a Northern Illinois University graduate in Operations & Information Management with a Computer Science minor. His work combines product experimentation, customer and market analysis, KPI strategy, operations visibility, SQL/Python analytics, applied AI research, forecasting, and business decision support.
-
-## Proof Points
-
-- 30,000+ ZIP codes analyzed at Shipt
-- Digital experimentation analytics at Ulta Beauty
-- 10+ hours of manual reporting saved weekly
-- 20+ KPIs standardized at Innovation DuPage
-- 40% reporting cycle reduction
-- 28 AI personas evaluated in applied AI research
-- Network planning deck available at /assets/network_planning.pdf
-- Dean's Research Seminar deck available at /assets/research.pdf
-- CURE research poster available at /assets/cure-poster.pdf
-
-## Quick Answers
-
-Anthony Baptiste is based in Chicago / Northern Illinois and is best matched to full-time Associate Product Manager, Product Manager, Growth Product Manager, Product Operations, GTM Strategy, Product Analyst, Digital Experimentation Analyst, Product Marketing / GTM Analyst, Operations Analyst, Supply Chain Analyst, AI Product Analyst, and Applied AI roles.
-
-Recruiters should review the Projects page for product and growth proof, Experience for experimentation, operations, consulting, and research outcomes, Research for applied AI/NLP work, Resume for targeted PDF downloads, and Contact for email, LinkedIn, GitHub, and Calendly links.
-
-This portfolio is hosted as a static GitHub Pages site with canonical URLs on antbap23.github.io/career-site.
-
-Additional proof includes Shipt network planning analytics, Ulta Beauty digital experimentation, Innovation DuPage KPI standardization, Mystery Street market consulting, HAVI data visualization and demand forecasting competitions, OMIS IGNITE leadership, ACM NIU community work, AI Agents training, Dean's Research Seminar materials, and CURE research presentation materials.
-
-## Core Skills
-
-Product and growth: product discovery inputs, customer problems, growth loops, funnel analysis, conversion analysis, feature impact, prioritization support.
-Experimentation and metrics: A/B testing, multivariate testing, Adobe Target, AB Tasty, KPI design, guardrail metrics, post-test storytelling.
-GTM and customer insight: market research, competitor analysis, customer segments, positioning inputs, success criteria, stakeholder interviews.
-Product operations: operations analytics, process visibility, dashboard requirements, stakeholder alignment, Salesforce reporting, decision workflows.
-Data fluency: SQL, Python, Tableau, Power BI, Excel, pandas, PostgreSQL, dbt exposure.
-Applied AI and research: LLM workflows, prompt structure, GPT simulations, Claude workflows, NLP, sentiment scoring, Streamlit.
-
-## Contact
-
-- Email: AnthonyBaptiste00@gmail.com
-- LinkedIn: https://www.linkedin.com/in/anthony-baptiste00/
-- GitHub: https://github.com/AntBap23
-- Calendly: https://calendly.com/anthonybaptiste00
+Contact: AnthonyBaptiste00@gmail.com
