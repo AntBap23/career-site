@@ -413,34 +413,6 @@ body::before {
   pointer-events: none;
 }
 
-.page-wipe {
-  display: none;
-  position: fixed;
-  inset: -15vh -20vw;
-  z-index: 999;
-  background: var(--color-accent);
-  clip-path: polygon(0 0, 70% 0, 54% 100%, 0 100%);
-  transform: translateX(-120%);
-  pointer-events: none;
-}
-
-.page-wipe::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--color-accent-secondary);
-  clip-path: polygon(0 0, 8% 0, 34% 100%, 25% 100%);
-}
-
-body.is-leaving .page-wipe {
-  display: block;
-  animation: page-wipe-in 280ms cubic-bezier(0.76, 0, 0.24, 1) forwards;
-}
-
-@keyframes page-wipe-in {
-  to { transform: translateX(45%); }
-}
-
 /* 07. Shared layout ------------------------------------------------------- */
 .section,
 .page-hero,
@@ -1405,7 +1377,7 @@ body.is-leaving .page-wipe {
 
 .project-grid {
   grid-template-columns: repeat(12, 1fr);
-  align-items: start;
+  align-items: stretch;
 }
 
 .project-card {
@@ -1413,15 +1385,14 @@ body.is-leaving .page-wipe {
   display: flex;
   flex-direction: column;
   min-height: 440px;
+  gap: 2rem;
   padding: clamp(1.5rem, 3vw, 2.3rem);
   overflow: hidden;
   box-shadow: var(--shadow-sm);
   transition: transform var(--transition-snap), box-shadow var(--transition-snap);
 }
 
-.project-card.featured { grid-column: span 7; }
-.project-card.featured + .project-card { grid-column: span 5; transform: translateY(2rem); }
-.project-card:nth-child(4n) { transform: translateY(1.5rem) rotate(0.4deg); }
+.project-card.featured { grid-column: span 6; }
 .project-card:hover { transform: translate(-5px, -6px) rotate(-0.5deg); box-shadow: var(--shadow-accent); }
 
 .project-card::before {
@@ -1437,8 +1408,8 @@ body.is-leaving .page-wipe {
 
 .project-type { margin-bottom: 2rem; }
 .project-card h3 { max-width: 30rem; font-family: var(--font-display); text-transform: uppercase; }
-.project-card > p { margin-top: 0.9rem; color: var(--color-muted); }
-.project-card .tag-list { margin-top: auto; padding-top: 2rem; }
+.project-card > div > p:not(.project-type) { margin-top: 1rem; color: var(--color-muted); line-height: 1.7; }
+.project-card .tag-list { margin: 0; padding-top: 0; }
 
 .project-footer {
   display: flex;
@@ -1446,8 +1417,8 @@ body.is-leaving .page-wipe {
   justify-content: space-between;
   align-items: end;
   gap: 1rem;
-  margin-top: 1.5rem;
-  padding-top: 1.2rem;
+  margin-top: auto;
+  padding-top: 1.5rem;
   border-top: 1px solid var(--color-line);
 }
 
@@ -1623,41 +1594,22 @@ body[data-page="not-found"] .hero-actions { margin-top: 2rem; }
 .site-footer a { position: relative; z-index: 1; color: var(--color-accent-secondary); font: 850 0.75rem/1 var(--font-mono); letter-spacing: 0.05em; text-transform: uppercase; }
 .site-footer a::after { content: " →"; }
 
-/* 22. Motion -------------------------------------------------------------- */
-.reveal-ready {
-  opacity: 0;
-  transform: translateY(28px) rotate(0.35deg);
-}
-
-.reveal-ready.is-visible {
-  opacity: 1;
-  transform: translateY(0) rotate(0);
-  transition: opacity 480ms ease, transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.hero-content > * {
-  animation: hero-enter 560ms both cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.hero-content > :nth-child(2) { animation-delay: 70ms; }
-.hero-content > :nth-child(3) { animation-delay: 120ms; }
-.hero-content > :nth-child(4) { animation-delay: 170ms; }
-.hero-content > :nth-child(5) { animation-delay: 220ms; }
-.hero-content > :nth-child(6) { animation-delay: 260ms; }
-.hero-content > :nth-child(7) { animation-delay: 300ms; }
-
-@keyframes hero-enter {
-  from { opacity: 0; transform: translateY(22px) skewY(1deg); }
-  to { opacity: 1; }
-}
-
-.page-hero h1 {
-  animation: title-snap 520ms both cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-@keyframes title-snap {
-  from { opacity: 0; transform: translateX(-35px) skewX(-5deg); }
-  to { opacity: 1; transform: translateX(0) skewX(0); }
+/* Readable content and consistent project actions. */
+h1, h2, h3 { overflow-wrap: break-word; }
+h2 { line-height: 1.05; }
+.project-actions { width: 100%; gap: 0.75rem; }
+.project-link, .project-link.secondary { clip-path: none; border-radius: var(--radius-sm); }
+.project-card::before { width: 3.5rem; height: 2rem; }
+.project-card h3 { line-height: 1.15; }
+.project-lens { transform: none; }
+.project-lens-section { padding-block: clamp(2rem, 4vw, 3rem); }
+.project-lens-section + .section { padding-top: clamp(2rem, 4vw, 3rem); }
+.project-type, .tag-list li { font-size: 0.8125rem; }
+.project-footer { align-content: start; row-gap: 1.25rem; }
+@media (min-width: 901px) {
+  .project-footer { display: grid; grid-template-rows: 1fr auto; min-height: 10rem; }
+  .project-footer .tag-list { align-self: start; }
+  .project-actions { align-self: end; }
 }
 
 /* 23. Responsive ---------------------------------------------------------- */
@@ -1800,13 +1752,14 @@ body[data-page="not-found"] .hero-actions { margin-top: 2rem; }
     padding-block: 4.5rem;
   }
 
+  .brand span:last-child { display: block; }
   .hero-profile { width: min(72vw, 350px); margin: 1.5rem auto; }
   .signal-console { width: min(100%, 620px); }
   .proof-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .proof-strip > div:nth-child(3) { border-right: 0; }
   .proof-strip > div:nth-child(n + 4) { border-top: 1px solid rgba(9, 11, 18, 0.24); }
 
-  .page-hero { min-height: 500px; }
+  .page-hero { min-height: 420px; }
   .page-hero::before { width: 42%; opacity: 0.6; }
   .about-hero { grid-template-columns: 1fr; }
   .about-portrait { justify-self: start; width: min(75vw, 340px); }
@@ -1859,7 +1812,7 @@ body[data-page="not-found"] .hero-actions { margin-top: 2rem; }
   .proof-strip > div:last-child { grid-column: 1 / -1; }
 
   .section { padding-block: 4.2rem; }
-  .page-hero { width: 100%; min-height: 460px; padding-inline: var(--gutter); }
+  .page-hero { width: 100%; min-height: 380px; padding-inline: var(--gutter); }
   .page-hero h1 { font-size: clamp(2rem, 8vw, 3rem); overflow-wrap: anywhere; }
   .page-hero::before { right: -28%; width: 68%; opacity: 0.45; }
   .page-hero::after { font-size: 5rem; }
@@ -1940,10 +1893,4 @@ body[data-page="not-found"] .hero-actions { margin-top: 2rem; }
     transition-duration: 0.01ms !important;
   }
 
-  .reveal-ready {
-    opacity: 1;
-    transform: none;
-  }
-
-  .page-wipe { display: none; }
 }
